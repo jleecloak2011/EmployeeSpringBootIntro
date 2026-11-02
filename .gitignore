@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Java compiled files
+*.class
+
+# IDE configuration
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Logs
+*.log
